@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <OutputDir>${KSP_INSTALL}\GameData</OutputDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>${KSP_INSTALL}\KSP_x64_Data\Managed</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>${KSP_INSTALL}\KSP_x64_Data\Managed</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-Csharp">
+      <HintPath>${KSP_INSTALL}\KSP_x64_Data\Managed</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-Csharp-firstpass">
+      <HintPath>${KSP_INSTALL}\KSP_x64_Data\Managed</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
